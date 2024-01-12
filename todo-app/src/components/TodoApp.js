@@ -96,7 +96,7 @@ export const TodoApp = () => {
                   value={editedTask}
                   onChange={(e) => setEditedTask(e.target.value)}
                   onKeyPress={(e) => handleEditKeyPress(e, todo.id)}
-                  placeholder={todo.task} // Display the current task
+                  placeholder={todo.task} // Display the current task.
                   className="todo-input" // Apply the same class as the new task input
                 />
                 <button
